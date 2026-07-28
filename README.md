@@ -34,22 +34,9 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![X11](https://img.shields.io/badge/X11-1a1a1a?style=for-the-badge&logo=x&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-</div>
-
----
-
-### 📈 Stats
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=marwatoo&show_icons=true&theme=dracula&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marwatoo&layout=compact&theme=dracula&hide_border=true" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=marwatoo&theme=dracula&hide_border=true" />
 </div>
 
 ---
@@ -58,9 +45,7 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 
 <div align="center">
 
-<!-- Swap these placeholder links for your real profiles -->
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![Twitter/X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/your-handle)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marwa@vivaldi.net)
 
 </div>
 
