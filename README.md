@@ -18,6 +18,8 @@ I write — in Arabic, English, and French — and I read political essays for f
 
 On the desktop, that means switching between **bspwm**, **dwm**, and **KDE Plasma** depending on the mood, and running patched, minimal builds of the suckless suite. On the creative side, it means replacing bloated software with lighter tools I've built myself when I can.
 
+I daily-drive **Debian** — partly because I love it, partly because (unlike some distro-hoppers out there) I'm mentally stable and feel secure. 😄
+
 ---
 
 ### 🧰 What I build
@@ -61,6 +63,7 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 <div align="center">
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 ![bspwm](https://img.shields.io/badge/bspwm-1a1a1a?style=for-the-badge&logo=archlinux&logoColor=white)
 ![KDE Plasma](https://img.shields.io/badge/KDE_Plasma-1D99F3?style=for-the-badge&logo=kde&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
