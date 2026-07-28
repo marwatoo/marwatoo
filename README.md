@@ -4,9 +4,9 @@
 
 # I'm Marwatoo
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Suckless+enjoyer+%E2%80%A2+Linux+ricer;Writer+in+Arabic%2C+English+%26+French;Designer+%E2%80%A2+Editor+%E2%80%A2+Builder&font=Fira%20Code&center=true&width=520&height=50&color=61dafb&vCenter=true&size=20&pause=1500">
+<img src="https://readme-typing-svg.demolab.com/?lines=Suckless+enjoyer+%E2%80%A2+Linux+ricer;Writer+in+Arabic%2C+English+%26+French;Designer+%E2%80%A2+Editor+%E2%80%A2+Builder&font=Fira%20Code&center=true&width=650&height=60&color=61dafb&vCenter=true&size=26&pause=1500">
 
-*Minimal systems, maximum expression. I like tools that get out of the way — and stories that don't.*
+### *Minimal systems, maximum expression. I like tools that get out of the way — and stories that don't.*
 
 </div>
 
@@ -19,6 +19,24 @@ I write — in Arabic, English, and French — and I read political essays for f
 On the desktop, that means switching between **bspwm**, **dwm**, and **KDE Plasma** depending on the mood, and running patched, minimal builds of the suckless suite. On the creative side, it means replacing bloated software with lighter tools I've built myself when I can.
 
 I daily-drive **Debian** — partly because I love it, partly because (unlike some distro-hoppers out there) I'm mentally stable and feel secure. 😄
+
+A quote I keep coming back to:
+
+<div align="center" dir="rtl">
+
+**كل مشكلة يستحيل حلها هي مشكلة خاطئة بالضرورة**
+
+</div>
+
+<div align="center">
+
+*Every problem impossible to solve is necessarily a false problem.*
+
+*Tout problème impossible à résoudre est nécessairement un faux problème.*
+
+**— Mehdi Amel (مهدي عامل)**
+
+</div>
 
 ---
 
@@ -35,6 +53,22 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 | 🐍 [`PyBrand`](https://github.com/marwatoo/PyBrand) | A PIL-based tool that replaces Photoshop for social media content creation |
 | 🛠️ [`cmtools`](https://github.com/marwatoo/cmtools) | A collection of browser-based HTML apps — including a Photoshop-alternative tool and an Arabic note-taking tool |
 | 😀 [`Slackmoji`](https://github.com/marwatoo/Slackmoji) | Small script to fix emojis copied from Slack |
+
+---
+
+### 🖥️ Desktop
+
+<div align="center">
+
+<img src="./debian.png" width="90%" alt="Debian desktop running dwm and st"><br>
+<sub>Debian, dwm, and st in daily use</sub>
+
+<br><br>
+
+<img src="./nvim.png" width="90%" alt="Neovim welcome screen"><br>
+<sub>Neovim welcome screen</sub>
+
+</div>
 
 ---
 
@@ -86,9 +120,29 @@ Notes are kept in **Obsidian** and **KDE MarkNotes**. Conky widgets on the deskt
 
 ---
 
+### 💬 Favorite quote
+
+<div align="center" dir="rtl">
+
+### كل مشكلة يستحيل حلها هي مشكلة خاطئة بالضرورة
+
+</div>
+
+<div align="center">
+
+### *Every problem impossible to solve is necessarily a false problem.*
+
+### *Tout problème impossible à résoudre est nécessairement un faux problème.*
+
+**— Mehdi Amel (مهدي عامل)**
+
+</div>
+
+---
+
 ### 📖 Currently
 
-> Somewhere between a half-finished dotfiles commit and the next essay in the reading queue.
+> ### Somewhere between a half-finished dotfiles commit and the next essay in the reading queue.
 
 ---
 
