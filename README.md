@@ -70,6 +70,10 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 <sub>Neovim welcome screen</sub>
 <br>
 
+<img src="./neovim.png" width="90%" alt="Neovim configuration"><br>
+<sub>Neovim configuration</sub>
+<br>
+
 <a href="https://marwatoo.github.io/cmtools/index.html?maro=1"> <img src="./cmtools.png" width="90%" alt="CM Tools"> </a><br> <sub>CM Tools — <a href="https://marwatoo.github.io/cmtools/index.html?maro=1">try it live</a></sub>
 
 </div>
