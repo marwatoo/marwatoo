@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>marwatoo</title>
+<meta name="description" content="Marwatoo — suckless enjoyer, Linux ricer, trilingual writer, and builder of small tools that get out of the way." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<script>
+  (function () {
+    var STORAGE_KEY = "mrw-theme";
+    var theme = localStorage.getItem(STORAGE_KEY);
+    if (!theme) {
+      theme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    }
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="page">
+
+  <!-- Nav -->
+  <header class="top-nav">
+    <a href="#" class="brand"><span class="prompt-glyph">~$</span> marwatoo</a>
+    <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </header>
+
+  <!-- Hero: terminal window -->
+  <section class="hero">
+    <div class="term-window">
+      <div class="term-bar">
+        <span class="term-dot red"></span>
+        <span class="term-dot yellow"></span>
+        <span class="term-dot green"></span>
+        <span class="term-title">st — 80×24</span>
+      </div>
+      <div class="term-body">
+        <div class="term-line"><span class="prompt">❯</span><span class="cmd">whoami</span></div>
+        <p class="term-name">marwa<span class="accent">too</span><span class="cursor"></span></p>
+        <div class="term-line"><span class="prompt">❯</span><span class="cmd">cat about.txt</span></div>
+        <p class="term-out">
+          <span class="k">suckless enjoyer</span> · Linux ricer<br>
+          writer in Arabic, English &amp; French<br>
+          designer · editor · builder
+        </p>
+        <p class="hero-langs">مرحبا · Hello · Bonjour — minimal systems, maximum expression.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about">
+    <div class="section-head">about</div>
+    <p>I write — in Arabic, English, and French — and read political essays for fun, usually with a terminal open in the other window. Between that, I code, edit video, design, and put together content for social media. Most of what I build starts from the same instinct: <strong>strip away what isn't needed, keep what actually helps.</strong></p>
+    <p>On the desktop, that means switching between <strong>bspwm</strong>, <strong>dwm</strong>, and <strong>KDE Plasma</strong> depending on the mood, running patched, minimal builds of the suckless suite. On the creative side, it means replacing bloated software with lighter tools I've built myself when I can.</p>
+    <p>I daily-drive <strong>Debian</strong>, partly because I love it, partly because (unlike some distro-hoppers out there) I'm mentally stable and feel secure. 😄</p>
+
+    <div class="quote-block">
+      <p class="quote-ar" dir="rtl" lang="ar">كل مشكلة يستحيل حلها هي مشكلة خاطئة بالضرورة</p>
+      <div class="quote-translations">
+        <p>"Every problem impossible to solve is necessarily a false problem."</p>
+        <p>« Tout problème impossible à résoudre est nécessairement un faux problème. »</p>
+      </div>
+      <p class="quote-attr">— Mehdi Amel <span class="ar">(مهدي عامل)</span></p>
+    </div>
+  </section>
+
+  <!-- Now -->
+  <section class="section">
+    <div class="section-head">now</div>
+    <p class="now-line"><span class="comment">#</span> somewhere between a half-finished dotfiles commit and the next essay in the reading queue.</p>
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <div class="section-head">projects</div>
+    <div class="projects-grid">
+      <a href="https://github.com/marwatoo/dwm" class="project-card">
+        <div class="project-head"><span class="project-icon">▤</span><span class="project-name">dwm</span></div>
+        <p class="project-desc">My build of the dynamic window manager.</p>
+      </a>
+      <a href="https://github.com/marwatoo/st" class="project-card">
+        <div class="project-head"><span class="project-icon">❯_</span><span class="project-name">st</span></div>
+        <p class="project-desc">My build of the simple terminal — patched with autocomplete, scrollback, bidi, and more.</p>
+      </a>
+      <a href="https://github.com/marwatoo/slstatus" class="project-card">
+        <div class="project-head"><span class="project-icon">▬</span><span class="project-name">slstatus</span></div>
+        <p class="project-desc">Status bar feeding dwm.</p>
+      </a>
+      <a href="https://github.com/marwatoo/dwmblocks" class="project-card">
+        <div class="project-head"><span class="project-icon">▦</span><span class="project-name">dwmblocks</span></div>
+        <p class="project-desc">Modular status bar blocks for dwm.</p>
+      </a>
+      <a href="https://github.com/marwatoo/PyBrand" class="project-card">
+        <div class="project-head"><span class="project-icon">◈</span><span class="project-name">PyBrand</span></div>
+        <p class="project-desc">A PIL-based tool that replaces Photoshop for social media content creation.</p>
+      </a>
+      <a href="https://github.com/marwatoo/cmtools" class="project-card">
+        <div class="project-head"><span class="project-icon">⚒</span><span class="project-name">cmtools</span></div>
+        <p class="project-desc">Browser-based HTML apps — a Photoshop-alternative and an Arabic note-taking tool.</p>
+      </a>
+      <a href="https://github.com/marwatoo/Slackmoji" class="project-card">
+        <div class="project-head"><span class="project-icon">☺</span><span class="project-name">Slackmoji</span></div>
+        <p class="project-desc">Small script to fix emojis copied from Slack.</p>
+      </a>
+      <a href="https://github.com/marwatoo/nvim-config" class="project-card">
+        <div class="project-head"><span class="project-icon">✦</span><span class="project-name">nvim</span></div>
+        <p class="project-desc">Personal Neovim configuration.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section class="section">
+    <div class="section-head">stack</div>
+
+    <div class="stack-group">
+      <div class="stack-label">languages &amp; frameworks</div>
+      <ul class="stack-tags">
+        <li>C</li><li>Python</li><li>Qt6</li><li>PyQt</li><li>.NET WinForms</li>
+        <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bash</li><li>PowerShell</li><li>Lua</li>
+      </ul>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-label">desktop &amp; tools</div>
+      <ul class="stack-tags">
+        <li>Linux</li><li>Debian</li><li>bspwm</li><li>KDE Plasma</li><li>Neovim</li><li>Obsidian</li>
+      </ul>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-label">design &amp; video</div>
+      <ul class="stack-tags">
+        <li>GIMP</li><li>Photoshop</li><li>Illustrator</li><li>Premiere Pro</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="mailto:marwa@vivaldi.net">email</a>
+      <a href="https://github.com/marwatoo">github</a>
+    </div>
+    <span class="footer-note">built with dwm, st &amp; stubbornness</span>
+  </footer>
+
+</div>
+<script src="assets/theme.js"></script>
+</body>
+</html>
