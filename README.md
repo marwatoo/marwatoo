@@ -61,20 +61,20 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 
 <div align="center">
 
-<img src="./debian.png" width="90%" alt="Debian desktop running dwm and st"><br>
+<img src="./debian.png" width="90%" alt="Debian desktop running dwm and st">
 <sub>Debian, dwm, and st in daily use</sub>
 
 <br>
 
-<img src="./nvim.png" width="90%" alt="Neovim welcome screen"><br>
+<img src="./nvim.png" width="90%" alt="Neovim welcome screen">
 <sub>Neovim welcome screen</sub>
 <br>
 
-<img src="./neovim.png" width="90%" alt="Neovim configuration"><br>
+<img src="./neovim.png" width="90%" alt="Neovim configuration">
 <sub>Neovim configuration</sub>
 <br>
 
-<a href="https://marwatoo.github.io/cmtools/index.html?maro=1"> <img src="./cmtools.png" width="90%" alt="CM Tools"> </a><br> <sub>CM Tools — <a href="https://marwatoo.github.io/cmtools/index.html?maro=1">try it live</a></sub>
+<a href="https://marwatoo.github.io/cmtools/index.html?maro=1"> <img src="./cmtools.png" width="90%" alt="CM Tools"> </a><sub>CM Tools — <a href="https://marwatoo.github.io/cmtools/index.html?maro=1">try it live</a></sub>
 
 </div>
 
