@@ -53,7 +53,7 @@ I maintain personal, patched builds of the suckless suite — stripped down, fas
 | 🐍 [`PyBrand`](https://github.com/marwatoo/PyBrand) | A PIL-based tool that replaces Photoshop for social media content creation |
 | 🛠️ [`cmtools`](https://github.com/marwatoo/cmtools) | A collection of browser-based HTML apps — including a Photoshop-alternative tool and an Arabic note-taking tool |
 | 😀 [`Slackmoji`](https://github.com/marwatoo/Slackmoji) | Small script to fix emojis copied from Slack |
-| 😀 [`Slackmoji`](https://github.com/marwatoo/Slackmoji) | Small script to fix emojis copied from Slack |
+| ✒️ [`nvim`](https://github.com/marwatoo/nvim-config) | Personal neovim config |
 
 ---
 
